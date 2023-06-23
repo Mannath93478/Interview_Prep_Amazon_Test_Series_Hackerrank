@@ -48,7 +48,7 @@ int minSwaps(int arr[], int n)
     int first = 0;
     int last = 0;
     
-    for(int i=0;i<n;i++)
+    for(int i=1;i<n;i++)
     {
         int n1 = arr[i];
         if(n1 < min_value)
